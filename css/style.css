@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aliceblue;
+    height: 70px;
+    display: inline-flex;
+    width: 100%;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.my-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px 20px;
+    background-color: blue;
+    margin: 10px 10px;
+}
+
+.grid-items {
+    background-color: azure;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.logo {
+    font-style: italic;
+    margin-left: 15px;
+    color: blue;
+}
+
+.nav-links {
+    display: inline-flex;
+}
+
+.nav-links,li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.nav-a {
+    text-decoration: none;
+    border: none;
+    border-bottom: none !important;
+    padding: 3px;
+}
+
+.nav-a:hover {
+    text-decoration: none;
+color: lightcoral;
+border: none !important;
+border-bottom: 1px solid lightcoral !important;
+}
